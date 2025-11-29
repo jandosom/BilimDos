@@ -1,0 +1,8 @@
+{
+  "name": "BilimDos - Оқу көмекшісі",
+  "description": "Оқушыларға арналған көптілді AI көмекшісі (қазақ, орыс, ағылшын).",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
