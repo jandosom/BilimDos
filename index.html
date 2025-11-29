@@ -234,7 +234,7 @@
         
         // This shim mimics the NodeJS process.env for compatibility with the Gemini SDK logic.
         // TODO: Replace 'YOUR_VALID_API_KEY_HERE' with a valid Google Gemini API Key.
-        window.process = { env: { API_KEY: 'AIzaSyBXpTEIavHHHsG80zBCuWzpppDAXIl-9RY' } };
+        window.process = { env: { API_KEY: '-' } };
         
         // 1. Try to get key from global variable (PHP injection point)
         if (typeof window.PHP_API_KEY !== 'undefined' && window.PHP_API_KEY) {
